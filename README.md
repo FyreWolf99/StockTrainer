@@ -7,4 +7,10 @@ Features to Implement:
 * [ ] Graph labels
 * [ ] Buy button
 * [ ] Sell button
-* [ ] Current Balance
+* [ ] Current balance
+* [ ] Saving to disk
+
+Possible Features:
+
+* [ ] Background music
+* [ ] API for implementing bots
