@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="Stock Trainer"
+run/main_scene="res://Scenes/World.tscn"
 config/icon="res://icon.png"
 
 [gui]
