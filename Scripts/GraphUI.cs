@@ -30,7 +30,7 @@ public class GraphUI : Control
 		foreach (PriceData i in data)
 		{
 			await Task.Delay(50);
-			GD.Print(i);			
+			GD.Print(i);
 		}
 	}
 }
