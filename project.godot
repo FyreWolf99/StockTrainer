@@ -14,6 +14,11 @@ config/name="Stock Trainer"
 run/main_scene="res://Scenes/World.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1280
+window/size/height=720
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

@@ -2,6 +2,16 @@ using System;
 
 public class PriceData
 {
+    public PriceData()
+    {
+        Timestamp = DateTime.MinValue;
+        Open = 0;
+        High = 0;
+        Low = 0;
+        Close = 0;
+        Volume = 0;
+    }
+    
     public DateTime Timestamp;
     public float Open;
     public float High;

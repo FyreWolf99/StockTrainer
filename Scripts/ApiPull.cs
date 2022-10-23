@@ -81,6 +81,8 @@ class ApiPull
             }
         }
         
+        data.RemoveAt(0);
+        
         return data;
     }   
 }
