@@ -16,7 +16,7 @@ class ApiPull
     public static List<PriceData> GetPriceData(string symbol)
     {
         string apiKey = GetApiKey();
-        string url = $"https://alpha-vantage.p.rapidapi.com/query?interval=1min&function=TIME_SERIES_INTRADAY&symbol={symbol}&datatype=json&output_size=compact";
+        string url = $"https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_DAILY&symbol={symbol}&datatype=json&output_size=compact";
         
         WebRequest req = WebRequest.Create(url);
         req.Headers["X-RapidAPI-Key"] = apiKey;
